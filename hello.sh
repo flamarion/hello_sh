@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-#var="Hello"
+var="Hello"
 
-if [ -n $var ]; then
+if [ -z $var ]; then
  echo $var
 else
  exit 1

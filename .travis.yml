@@ -1,0 +1,3 @@
+language: bash
+script:
+  - chmod +x bash hello.sh

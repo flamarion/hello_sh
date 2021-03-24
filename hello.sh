@@ -2,7 +2,7 @@
 
 var="Hello"
 
-if [ -z $var ]; then
+if [ -n $var ]; then
  echo $var
 else
  exit 1

@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-var="Hello"
+#var="Hello"
 
 if [ -n $var ]; then
  echo $var
